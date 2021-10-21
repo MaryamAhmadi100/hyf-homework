@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>form HYF week 3</title>
+  <meta name="viewport" content="width=device-width, initia-scale=1.0">
+
+
+</head>
+
+<body class="main">
+
+  <div class="flexbox-container">
+    <div class="flexbox-item flexbox-item1">Logo</div>
+    <div class="flexbox-item flexbox-item2">Navigation</div>
+  </div>
+
+  <div class="progress-bar">
+
+    <h1 class="head">Sign up for youcustomtailor.com</h1>
+    <p class="head-p">
+      we can't wait to helo you improve you life-style and gain the attention from people around you!
+      sign below to save uo to 70% on apparel, hand bags and costemtics. Our agents are busy piking the bet offers that
+      match your pereferences and style. Every week we will send you a hand-pick selection - we just need to know a few
+      detailes about your first ...
+
+    </p>
+    <h2 class="progress-text">Step 1/4- tell us who you are?</h2>
+    <div class="progress-p"> <strong>Progress</strong>
+    </div>
+    <div class="progress">
+      <div class="progress--fill"> </div>
+
+    </div>
+
+    <p class="form-text">
+      Nice to meet you. let's spend a minute to get to know each other? Please enter the following:
+    </p>
+    </section>
+    <form methode="post" class="form">
+      <div>
+        <label for="first name">First name* </label>
+        <!--why the validation will not work-->
+        <input type="text" id="first name" name="first name" minlength="4" maxlength="20" required placeholder="......">
+      </div>
+      <div><label for="last name">Last name* </label>
+        <input type="text" id="last name" name="last name" required placeholder="......">
+      </div>
+      <div>
+        <label for="text">Country </label>
+        <select name="country list">
+          <option value="none">None</option>
+          <option value="country1">country 1</option>
+          <option value="country2">country 2</option>
+          <option value="country3">country 3</option>
+        </select>
+      </div>
+      <div class="adress-row">
+        <label for="street adress">Srreet Adress* </label>
+        <input type="text" id="street adress" name="street adress" minlength="4" required placeholder="......">
+      </div>
+      <div>
+        <label for="post code">Post code* </label>
+        <input type="text" id="post code" name="post code" required placeholder="......">
+      </div>
+      <br>
+      <div class="profile-description">
+        <label for="text-box" class="profile-d"> Profile Description </label>
+        <textarea name="profile description" class="text-area"
+          placeholder="write about yourself...max length 500 charachter !" maxlength="1000"></textarea>
+        <br>
+        <div>
+          <a href="secoundpage.html">
+            <input type="submit" id="button" value="Next step">
+          </a>
+
+        </div>
+    </form>
+</body>

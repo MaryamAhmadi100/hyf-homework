@@ -1,0 +1,129 @@
+.main{
+    margin:3%; 
+    max-width:100%;
+    }
+    .flexbox-container{
+        display:flex;
+        justify-content: space-between;
+        }
+ .flexbox-item{
+    width: 80px;
+    margin-top: 25px;
+    margin-bottom: 20;
+    border:1px solid rgb(59, 57, 57);
+    background-color: rgb(207, 206, 199);
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    height:20px;       
+ } 
+h1{
+
+    font-size: 10px;
+margin-top:22px;
+}
+.head-p{
+    font-size: 10px;
+    }
+    .progress-p{
+        font-size: 11px;
+    
+    }   
+
+    .progress{
+        width:100%;
+        height:20px;
+        background: rgb(188, 192, 192);
+    }
+.progress--fill{
+    width:18%;
+    height:100%;
+    background: rgb(48, 47, 47);
+}
+.form-text{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+label{
+    display:inline;
+font-size: 10px;
+}
+input {   
+    display:block; 
+    padding: 2px;
+    margin-top: 5px;
+    border:solid 1px rgb(12, 12, 12);
+    height: 10px;
+    font-size: 10px;
+
+}
+.radio-description{
+
+    font-size: 12px;
+margin-top: 20px;
+}
+#next-step{
+    height: 25px;
+    display: flex;
+    align-content: flex-end;
+    margin-top: 10px;
+    margin-left: 70%;
+  position:relative;
+}
+
+@media only screen and (min-width:768px) {
+   
+    .flexbox-item{
+       width: 300px;
+   
+       margin-bottom: 30px;
+       margin-top: 30;
+       font-size: 30px;
+       height:55px;      
+    }
+    .progress{
+        height:50px;
+      }
+      .head{
+          font-size: 30px;
+      }
+      .head-p{
+          font-size: 20px;
+      }
+      .form-text{
+          font-size:16px;
+          margin-top: 35px;
+      }
+      form label{
+        display:block;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    
+    input{
+        font-size:20px;
+        height: 15px;
+    }
+  
+    .radio-description{
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-top:30px;
+    }
+    .radio{
+        font-size: 15px;
+        display:flex;
+        justify-content: space-between;
+        
+    }
+
+    #button{
+        width:150px;
+        height: 50px;
+        margin-top: 70px;
+        margin-left: 70%;
+        font-size: 20px;
+    }
+    
+
+}
