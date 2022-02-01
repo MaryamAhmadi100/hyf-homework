@@ -56,8 +56,3 @@ form.addEventListener('submit', (event) =>{
     result.innerText = formName.value + "- " + chosenSpirit;
     event.preventDefault();
 })
-
-
-//Spirit animal name generator
-console.log("");
-console.log("TASK: Spirit animal name generator");
