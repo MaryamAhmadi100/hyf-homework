@@ -40,7 +40,6 @@ const travelInformation = {
     speed: 50,
     destinationDistance: 432,
 };
-
 function calculateTravelTime(information){
     let hours = information.destinationDistance/information.speed;
     let decimals = (hours + "").split(".")[1];
@@ -55,7 +54,6 @@ function calculateTravelTime(information){
 
 const travelTime = calculateTravelTime(travelInformation);
 console.log(travelTime); // 8 hours and 38 minutes
-
 
 
 
