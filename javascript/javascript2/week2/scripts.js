@@ -6,7 +6,7 @@ let newNumbers = filteredNumbers.map(n => n*2);
 console.log("The doubled numbers are", newNumbers); // [2, 6]
 
 //Movies
-let shortMovieTitles = movies.filter(m => m.title.length < 6);
+let shortMovieTitles = movies.filter(m => m.title.length < 6); 
 console.log("Short movies titles:");
 console.log(shortMovieTitles);
 
