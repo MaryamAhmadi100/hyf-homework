@@ -67,6 +67,6 @@ window.getAvailableProducts = function() {
         rating: getRandomInt(1, 10)
       };
     });
-    
+  
     return availableProducts;
   };
