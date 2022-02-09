@@ -3,7 +3,7 @@ console.log("TASK: Shortest Word")
 const danishWords = ["bil", "plante", "kaffe", "bog", "ø", "planetarium"];
 shortestWord(danishWords); // returns 'ø'
 
-function shortestWord(list){
+function shortestWord(list){ 
     let shortestWord = list[0].length;
     for(i=0;i<list.length;i++){
         if(shortestWord > list[i].length){
