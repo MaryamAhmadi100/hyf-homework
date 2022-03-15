@@ -1,0 +1,30 @@
+
+.container{
+    width: 20%;
+    margin: auto;
+}
+#form{
+    display: grid;
+
+    margin-top: 20px;
+}
+
+.label{
+    grid-column:1;
+}
+
+.input{
+    grid-column-start:2;
+    grid-column-end:7;
+}
+
+#text-cloud{
+    margin:auto;
+}
+#result ul li{
+    list-style: none;
+}
+
+.bold{
+    font-weight: 800;
+}
