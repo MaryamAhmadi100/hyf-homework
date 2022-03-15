@@ -1,0 +1,24 @@
+.canvases{
+    display:flex;
+}
+
+#shoppingCart{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.user-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-div div{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: bisque;
+}
+
+.user-div h2{
+    flex-basis: 100%;
+}
